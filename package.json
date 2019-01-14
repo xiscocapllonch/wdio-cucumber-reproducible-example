@@ -1,0 +1,17 @@
+{
+  "name": "reporducible-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "dependencies": {
+    "expect": "23.6.0",
+    "cucumber": "4.2.1",
+    "wdio-cucumber-framework": "1.1.1",
+    "wdio-cucumber-reporter": "0.0.2",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "webdriverio": "4.13.0"
+  }
+}
